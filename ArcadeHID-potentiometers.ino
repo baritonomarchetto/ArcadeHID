@@ -11,7 +11,7 @@ Joystick_ Joystick(JOYSTICK_DEFAULT_REPORT_ID,JOYSTICK_TYPE_GAMEPAD,
 true, false, false,    // X, Y, Z Axis
 false, false, false,   // No Rx, Ry, or Rz
 false, false,          // No rudder or throttle
-false, false, true);   // No accelerator, brake, or steering
+false, false, false);   // No accelerator, brake, or steering
  
 const int steerPin = A0; 
 int steerValue; 
